@@ -1,0 +1,56 @@
+/* pages/detail/detail.wxss */
+.container {
+  padding: 20rpx;
+  background-color: #f2f2f2;
+}
+.goods-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods-item {
+  position: relative;
+  width: 45%;
+  margin: 10rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  border-radius: 5rpx;
+  box-shadow: 0 0 10rpx rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.name {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.price {
+  font-size: 24rpx;
+  color: red;
+  margin-bottom: 10rpx;
+}
+.checkbox {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.checkbox.checked {
+  border-color: #007aff;
+  background-color: #007aff;
+}
+.checkbox::after {
+  content: '';
+  display: block;
+  width: 16rpx;
+  height: 16rpx;
+  margin: 6rpx;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.checkbox.checked::after {
+  background-color: #fff;
+}

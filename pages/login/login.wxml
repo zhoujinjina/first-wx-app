@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="logo">Login</view>
+  <form class="form" bindsubmit="submit">
+    <input  class="input" type="text" name="username" placeholder="请输入用户名"/>
+    <input class="input" type="password" name="password" placeholder="请输入密码"/>
+    <button class="button" formType="submit">登录</button>
+  </form>
+  <view class="register">
+    <text>还没有账号？</text>
+    <navigator url="/pages/register/register">注册</navigator>
+  </view>
+</view>

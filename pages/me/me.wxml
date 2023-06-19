@@ -1,0 +1,18 @@
+<!--pages/me/me.wxml-->
+<view>
+<view>
+  当前用户： {{username}}
+</view>
+  <button bindtap="require">获取所有商品</button>
+  <view class="container">
+  <view class="goods-list">
+    <block wx:for="{{ goods }}" wx:key="index">
+      <view class="goods-item">
+        <view class="name">{{ item.goods }}</view>
+        <view class="price">{{ item.price }}</view>
+        <button class="add-to-cart" bindtap="addToCart" data-name="{{ item.goods }}" data-price="{{ item.price }}" data-index="{{ index }}">添加到购物车</button>
+      </view>
+    </block>
+  </view>
+</view>
+</view>

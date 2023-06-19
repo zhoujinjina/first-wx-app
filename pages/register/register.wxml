@@ -1,0 +1,22 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+  <view class="logo">Register</view>
+  <form bindsubmit="register" class="form" >
+    <view class="form-group">
+      <input  class="input" type="text" id="username" name="username" placeholder="请输入用户名" />
+    </view>
+    <view class="form-group">
+      <input   class="input" type="password" id="password" name="password" placeholder="请输入密码" />
+    </view>
+    <view class="form-group">
+      <input class="input" type="password" id="confirmPassword" name="confirmPassword" placeholder="请再次输入密码" />
+    </view>
+    <button class="btn" formType="submit">注册</button>
+  </form>
+  <view class="login">
+    <text>已有账号？</text>
+    <navigator url="/pages/login/login">登录</navigator>
+  </view>
+  <view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+{
+    "pages": [
+      "pages/login/login",
+      "pages/register/register",
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/me/me"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/shouye_1.png",
+        "selectedIconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/shouye.png"
+      },{
+        "pagePath": "pages/detail/detail",
+        "text": "购物车",
+        "iconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/wp-sj-3.png",
+        "selectedIconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/shuji.png"
+      },{
+        "pagePath": "pages/me/me",
+        "text": "商品列表",
+        "iconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/wode.png",
+        "selectedIconPath": "./icon_y0wpwfx2zdj/icon_y0wpwfx2zdj/wode_1.png"
+      }
+    ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
